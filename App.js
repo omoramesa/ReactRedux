@@ -10,7 +10,7 @@ import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
 import MyShopping from './src/my-shopping';
 import {Provider} from 'react-redux';
-import store from './store';
+import store from './store/index';
 
 
 

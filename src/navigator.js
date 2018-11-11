@@ -15,9 +15,8 @@ export const  AppStackNavigator = createStackNavigator({
     initialRouteName : 'Home',
     navigationOptions:{
         headerTitle : 'Mi tienda :D',
-        headerRight:
+        headerRight:(
             <ShopingCartIcon/>
-        
+        )
     }
-}
-);
+});
